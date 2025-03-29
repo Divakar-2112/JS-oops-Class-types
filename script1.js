@@ -126,3 +126,30 @@
 // }
 // Bike.name = "yamaha"
 // console.log(Bike.bikebrand());
+
+// Abstraction ----------------------------------------------------------------------
+
+// class User{
+//     #password;
+
+//         getting(pass){
+//             this.#password=pass
+//         }
+//     #validPassword(){
+//         if(this.#password.length>=8){
+//             console.log("Valid Password"); 
+//         }
+//         else{
+//             console.log("InValid Password"); 
+//         }
+//     }
+
+//     check(){
+//         this.#validPassword()
+//     }
+
+// }
+// let userdetails=new User()
+// userdetails.getting('divgajgrr')
+// userdetails.check()
+
